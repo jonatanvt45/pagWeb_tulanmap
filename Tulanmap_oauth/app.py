@@ -26,7 +26,7 @@ remote = True
 
 if remote is True: # Config remote database and remote oauth host
     db = database.db_cloud
-    host_config = 'http://tulanmap.herokuapp.com/auth/%s/callback'
+    host_config = 'https://tulanmap-utec.herokuapp.com/auth/google/callback'
 elif remote is False: # Config local database and local oauth host
     db = database.db_localhost
     host_config =  'http://localhost:8080/auth/%s/callback'
@@ -48,8 +48,8 @@ urls = urls.urls
 
 # GOOGLE API OAUTH2
 # Google API Token 
-app_id = '245053574220-gjosqahcinrm7ruc4p7stlelm6pii30j.apps.googleusercontent.com'
-app_secret = '_9eGtgjCXbOGuPpisUZJF6iT'
+app_id = '106208032507-np1ojo11mtv1f9vmi1jjktju41raltnr.apps.googleusercontent.com'
+app_secret = 'MGt-6k3aWEUgqcWcxnC-RJuf'
 
 
 # Global values

@@ -27,7 +27,7 @@ Kuorra is a Web.py Microframework Frontend, use kuorra to create a MVC skeleton 
         - For work in the web:
             - http://yourwebserver.com:8080/auth/google/callback
             - or
-            - http://tulanmap.herokuapp.com/auth/google/callback
+            - https://tulanmap-utec.herokuapp.com/auth/google/callback
 
     - GET tokens for use in **app.py**
         - app_id 
