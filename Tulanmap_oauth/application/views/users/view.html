@@ -1,0 +1,22 @@
+$def with(users)
+<h3>
+    <a href="/users">Usuario</a>
+</h3>
+<strong>User Name:</strong> $users.username <br>
+<strong>User:</strong> $users.user <br>
+
+$if users.status == 0:
+    <strong>Status:</strong> Desactivado <br>
+$else:
+    <strong>Status:</strong> Activado<br>
+<strong>Email:</strong> $users.email<br>
+<strong>Other:</strong> $users.other_data<br>
+<strong>UserHash:</strong> $users.user_hash<br>
+$if users.privilege == 0:
+    <strong>Privilege:</strong> Admin<br>
+$else:
+    <strong>Privilege:</strong> Guess<br>
+
+<strong>Created:</strong> $users.created <br>
+<br>
+<br>
